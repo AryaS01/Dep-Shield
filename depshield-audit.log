@@ -1,0 +1,55 @@
+
+--------------------------------------
+DepShield Scan Report
+Build ID  : BUILD-20260526-145607
+Timestamp : 2026-05-26 14:56:07
+
+---------------------------------------
+[SAFE] com.fasterxml.jackson.core:jackson-databind:${jackson.version}
+[SAFE] org.junit.jupiter:junit-jupiter:${junit.version}
+----------------------------------------
+Summary:
+  CRITICAL : 0
+  HIGH     : 0
+  MEDIUM   : 0
+  SAFE     : 2
+  DECISION : BUILD PASSED
+-----------------------------------------
+
+
+--------------------------------------
+DepShield Scan Report
+Build ID  : BUILD-20260526-145802
+Timestamp : 2026-05-26 14:58:03
+
+---------------------------------------
+[SAFE] com.fasterxml.jackson.core:jackson-databind:${jackson.version}
+[SAFE] org.junit.jupiter:junit-jupiter:${junit.version}
+----------------------------------------
+Summary:
+  CRITICAL : 0
+  HIGH     : 0
+  MEDIUM   : 0
+  SAFE     : 2
+  DECISION : BUILD PASSED
+-----------------------------------------
+
+
+--------------------------------------
+DepShield Scan Report
+Build ID  : BUILD-20260526-150259
+Timestamp : 2026-05-26 15:02:59
+
+---------------------------------------
+[SAFE] com.fasterxml.jackson.core:jackson-databind:2.15.2
+[SAFE] org.junit.jupiter:junit-jupiter:5.10.0
+[CRITICAL] org.apache.logging.log4j:log4j-core:2.14.1 → CVE-2021-44228: Log4Shell: remote code execution via JNDI lookup in log messages
+----------------------------------------
+Summary:
+  CRITICAL : 1
+  HIGH     : 0
+  MEDIUM   : 0
+  SAFE     : 2
+  DECISION : BUILD BLOCKED
+-----------------------------------------
+
