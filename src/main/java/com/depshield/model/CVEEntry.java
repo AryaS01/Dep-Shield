@@ -8,7 +8,7 @@ public class CVEEntry {
     private String severity;       // CRITICAL, HIGH, MEDIUM, LOW
     private String description;
 
-    // Default constructor — Jackson needs this to deserialize JSON
+  
     public CVEEntry() {}
 
     public String getCveId() { return cveId; }
